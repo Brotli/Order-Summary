@@ -1,0 +1,125 @@
+html {
+	background-image: url(images/pattern-background-desktop.svg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100% 50%;
+	background-attachment: fixed;
+	background-color: hsl(225, 100%, 94%);
+}
+
+#main {
+	background-color: white;
+	background-image: url(images/illustration-hero.svg);
+	background-repeat: no-repeat;
+	width: 450px;
+	height: 700px;
+	border-radius: 25px;
+	position: relative;
+	margin: auto;
+	margin-top: 8%;
+	box-shadow: 0px 8px 50px hsl(224, 23%, 55%);
+}
+
+h2 {
+	font-family: 'Red Hat Display Black', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	left: 120px;
+	top: 237px;
+	color: #333333;
+}
+
+#descriptionP {
+	text-align: center;
+	width: 290px;
+	font-family: "Red Hat Display", sans-serif;
+	line-height: 24px;
+	position: absolute;
+	font-size: 16px;
+	color: #666666;
+	top: 302px;
+	left: 90px;
+
+}
+
+
+#frame {
+	width: 360px;
+	height: 100px;
+	background-color: hsl(225, 100%, 98%);
+	border-radius: 10px;
+	position: absolute;
+	top: 412px;
+	left: 45px;
+}
+
+img {
+	position: absolute;
+	top: 437px;
+	left: 67px;
+}
+
+#s1 {
+	font-family: "Red Hat Display ExtraBold", sans-serif;
+	color: hsl(223, 47%, 23%);
+	position: absolute;
+	top: 437px;
+	left: 135px;
+}
+
+#change {
+	text-align: center;
+	font-family: "Red Hat Display SemiBold", sans-serif;
+	position: absolute;
+	font-size: 14px;
+	top: 450px;
+	right: 70px;
+}
+
+#s2 {
+	font-family: "Red Hat Display", sans-serif;
+	color: #777777;
+	position: absolute;
+	top: 466px;
+	left: 135px;
+}
+
+button {
+	color: white;
+	font-family: "Red Hat Display SemiBold", sans-serif;
+	background-color: hsl(245, 75%, 52%);
+	position: absolute;
+	top: 545px;
+	left: 45px;
+	width: 360px;
+	height: 50px;
+	border-style: none;
+	border-radius: 15px;
+	box-shadow: 0px 15px 10px hsl(225, 100%, 94%);
+}
+
+#cancel {
+	font-family: "Red Hat Display ExtraBold", sans-serif;
+	position: absolute;
+	top: 620px;
+	left: 185px;
+	color: hsl(224, 23%, 55%);
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#change:hover {
+	text-decoration: none;
+	color: hsl(245, 65%, 60%);
+}
+
+button:hover {
+	background-color: hsl(245, 65%, 60%);
+	cursor: pointer;
+}
+
+#cancel:hover {
+	color: hsl(223, 47%, 23%);
+}
